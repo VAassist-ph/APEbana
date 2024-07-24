@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne Ebana - Real Estate Salesperson & Virtual Services</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e0f7fa;
+            color: #00796b;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        h1, h2, h3 {
+            color: #00796b;
+        }
+        .skills, .tools {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skills div, .tools div {
+            background-color: #fff3e0;
+            border: 1px solid #ffd180;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.5rem;
+            flex: 1 1 45%;
+        }
+        footer {
+            background-color: #f1f8e9;
+            color: #388e3c;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        a {
+            color: #00796b;
+            text-decoration: none;
+        }
+        .contact, .social {
+            text-align: center;
+        }
+        .social a {
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anne Ebana</h1>
+        <h2>Real Estate Salesperson & Virtual Services Specialist</h2>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm Anne Ebana, a real estate salesperson based in the Philippines. I offer a range of virtual services with a specialization in real estate. My goal is to provide exceptional service and support to my clients through effective social media engagement, analytical insights, and administrative excellence.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>Social Media Engagement & Listing</div>
+                <div>Analytical Skills</div>
+                <div>Great Organizer & Time Management Skills</div>
+                <div>Administrative Skills</div>
+                <div>Excellent Customer Service Skills</div>
+                <div>Multitasker</div>
+                <div>Self-Learner, Flexible & Proactive</div>
+            </div>
+        </section>
+        <section>
+            <h2>Tools</h2>
+            <div class="tools">
+                <div>Canva</div>
+                <div>Monday.com</div>
+                <div>Google Workspace</div>
+                <div>Thrivecart</div>
+                <div>Podia</div>
+                <div>Squarespace</div>
+                <div>Capcut</div>
+                <div>Microsoft</div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:anne.ebana@example.com">anne.ebana@example.com</a></p>
+        </section>
+        <section class="social">
+            <h2>Follow Me</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/anneebana" target="_blank">LinkedIn</a> |
+                <a href="https://www.facebook.com/anneebana" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com/anneebana" target="_blank">Twitter</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anne Ebana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
