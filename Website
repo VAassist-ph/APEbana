@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anne Ebana - Real Estate Salesperson & Virtual Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
@@ -55,6 +56,11 @@
         .social a {
             margin: 0 1rem;
         }
+        @media (max-width: 600px) {
+            .skills div, .tools div {
+                flex: 1 1 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -96,14 +102,14 @@
             <h2>Contact</h2>
             <p>Email: <a href="mailto:anne.ebana@example.com">anne.ebana@example.com</a></p>
         </section>
-        <section class="social">
+        <nav class="social">
             <h2>Follow Me</h2>
             <p>
                 <a href="https://www.linkedin.com/in/anneebana" target="_blank">LinkedIn</a> |
                 <a href="https://www.facebook.com/anneebana" target="_blank">Facebook</a> |
                 <a href="https://www.twitter.com/anneebana" target="_blank">Twitter</a>
             </p>
-        </section>
+        </nav>
     </div>
     <footer>
         <p>&copy; 2024 Anne Ebana. All rights reserved.</p>
